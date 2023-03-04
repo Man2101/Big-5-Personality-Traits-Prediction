@@ -93,47 +93,47 @@ def test():
     tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["Extraversion", "Neuroticism", "Agreeableness", "Conscientiousness", "Openness to Experience", "Results"])
     tab1.write("The following questions test the Extraversion Trait")
     tab1.write("The alternatives are on a 5-point agreement scale.")
-    tab1.write(""" 1 - Disagree
-                    2 - Partially Disagree
-                    3 - Neutral
-                    4 - Partially Agree
-                    5 - Agree""")
+    tab1.write("1 - Disagree")
+    tab1.write("2 - Partially Disagree")
+    tab1.write("3 - Neutral")
+    tab1.write("4 - Partially Agree")
+    tab1.write("5 - Agree")
     tab1.write("---------------------------------------------------")
 
     tab2.write("The following questions test the Neuroticism Trait")
     tab2.write("The alternatives are on a 5-point agreement scale.")
-    tab2.write(""" 1 - Disagree
-                    2 - Partially Disagree
-                    3 - Neutral
-                    4 - Partially Agree
-                    5 - Agree""")
+    tab2.write("1 - Disagree")
+    tab2.write("2 - Partially Disagree")
+    tab2.write("3 - Neutral")
+    tab2.write("4 - Partially Agree")
+    tab2.write("5 - Agree")
     tab2.write("---------------------------------------------------")
 
     tab3.write("The following questions test the Agreeableness Trait")
     tab3.write("The alternatives are on a 5-point agreement scale.")
-    tab3.write(""" 1 - Disagree
-                    2 - Partially Disagree
-                    3 - Neutral
-                    4 - Partially Agree
-                    5 - Agree""")
+    tab3.write("1 - Disagree")
+    tab3.write("2 - Partially Disagree")
+    tab3.write("3 - Neutral")
+    tab3.write("4 - Partially Agree")
+    tab3.write("5 - Agree")
     tab3.write("---------------------------------------------------")
 
     tab4.write("The following questions test the Conscientiousness Trait")
     tab4.write("The alternatives are on a 5-point agreement scale.")
-    tab4.write(""" 1 - Disagree
-                    2 - Partially Disagree
-                    3 - Neutral
-                    4 - Partially Agree
-                    5 - Agree""")
+    tab4.write("1 - Disagree")
+    tab4.write("2 - Partially Disagree")
+    tab4.write("3 - Neutral")
+    tab4.write("4 - Partially Agree")
+    tab4.write("5 - Agree")
     tab4.write("---------------------------------------------------")
 
     tab5.write("The following questions test the Openness to Experience Trait")
     tab5.write("The alternatives are on a 5-point agreement scale.")
-    tab5.write(""" 1 - Disagree
-                    2 - Partially Disagree
-                    3 - Neutral
-                    4 - Partially Agree
-                    5 - Agree""")
+    tab5.write("1 - Disagree")
+    tab5.write("2 - Partially Disagree")
+    tab5.write("3 - Neutral")
+    tab5.write("4 - Partially Agree")
+    tab5.write("5 - Agree")
     tab5.write("---------------------------------------------------")
 
     tab6.write("Ready to see your results?")
