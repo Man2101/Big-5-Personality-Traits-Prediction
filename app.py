@@ -45,38 +45,15 @@ Factor Model (FFM) and consists of five broad dimensions of personality. These
 dimensions are openness to experience, conscientiousness, extraversion,
 agreeableness, and neuroticism. Let's explore each of these dimensions in detail:
 
-1. Openness to experience: This dimension refers to a person's openness and
-receptivity to new experiences, ideas, and perspectives. People who score
-high in openness tend to be curious, imaginative, creative, and open-minded.
-They enjoy exploring new ideas and concepts and are often interested in art,
-music, and culture. People who score low in openness tend to be more
-traditional, practical, and conventional.
+1. Openness to experience: This dimension refers to a person's openness andreceptivity to new experiences, ideas, and perspectives. People who scorehigh in openness tend to be curious, imaginative, creative, and open-minded. They enjoy exploring new ideas and concepts and are often interested in art, music, and culture. People who score low in openness tend to be more traditional, practical, and conventional.
 
-2. Conscientiousness: This dimension refers to a person's level of organization,
-responsibility, and self-discipline. People who score high in
-conscientiousness tend to be reliable, organized, and hard-working. They set
-high standards for themselves and take their obligations seriously. People
-who score low in conscientiousness tend to be more relaxed, spontaneous,
-and carefree.
+2. Conscientiousness: This dimension refers to a person's level of organization, responsibility, and self-discipline. People who score high in conscientiousness tend to be reliable, organized, and hard-working. They set high standards for themselves and take their obligations seriously. People who score low in conscientiousness tend to be more relaxed, spontaneous, and carefree.
 
-3. Extraversion: This dimension refers to a person's level of sociability,
-assertiveness, and energy. People who score high in extraversion tend to be
-outgoing, talkative, and energetic. They enjoy being around others and often
-seek out social interactions. People who score low in extraversion tend to be
-more reserved, quiet, and introspective.
+3. Extraversion: This dimension refers to a person's level of sociability, assertiveness, and energy. People who score high in extraversion tend to be outgoing, talkative, and energetic. They enjoy being around others and often seek out social interactions. People who score low in extraversion tend to be more reserved, quiet, and introspective.
 
-4. Agreeableness: This dimension refers to a person's level of empathy,
-cooperation, and kindness. People who score high in agreeableness tend to
-be compassionate, cooperative, and caring. They value harmony and tend to
-be supportive of others. People who score low in agreeableness tend to be
-more competitive, assertive, and sometimes critical.
+4. Agreeableness: This dimension refers to a person's level of empathy, cooperation, and kindness. People who score high in agreeableness tend to be compassionate, cooperative, and caring. They value harmony and tend to be supportive of others. People who score low in agreeableness tend to be more competitive, assertive, and sometimes critical.
 
-5. Neuroticism: This dimension refers to a person's level of emotional stability,
-anxiety, and sensitivity. People who score high in neuroticism tend to be
-more anxious, worried, and emotionally reactive. They may be more
-sensitive to stress and may experience a wider range of emotions. People
-who score low in neuroticism tend to be more emotionally stable and
-resilient.""")
+5. Neuroticism: This dimension refers to a person's level of emotional stability, anxiety, and sensitivity. People who score high in neuroticism tend to be more anxious, worried, and emotionally reactive. They may be more sensitive to stress and may experience a wider range of emotions. People who score low in neuroticism tend to be more emotionally stable and resilient.""")
     st.write("""
 The Big Five personality traits model is widely used in psychology research and
 has been found to be reliable and valid across different cultures and populations. It
