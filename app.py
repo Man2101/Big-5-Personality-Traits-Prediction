@@ -101,8 +101,8 @@ def test():
     tab1.write("---------------------------------------------------")
 
     tab2.write("The following questions test the Neuroticism Trait")
-    tab1.write("The alternatives are on a 5-point agreement scale.")
-    tab1.write("""" 1 - Disagree
+    tab2.write("The alternatives are on a 5-point agreement scale.")
+    tab2.write("""" 1 - Disagree
                     2 - Partially Disagree
                     3 - Neutral
                     4 - Partially Agree
@@ -110,8 +110,8 @@ def test():
     tab2.write("---------------------------------------------------")
 
     tab3.write("The following questions test the Agreeableness Trait")
-    tab1.write("The alternatives are on a 5-point agreement scale.")
-    tab1.write("""" 1 - Disagree
+    tab3.write("The alternatives are on a 5-point agreement scale.")
+    tab3.write("""" 1 - Disagree
                     2 - Partially Disagree
                     3 - Neutral
                     4 - Partially Agree
@@ -119,8 +119,8 @@ def test():
     tab3.write("---------------------------------------------------")
 
     tab4.write("The following questions test the Conscientiousness Trait")
-    tab1.write("The alternatives are on a 5-point agreement scale.")
-    tab1.write("""" 1 - Disagree
+    tab4.write("The alternatives are on a 5-point agreement scale.")
+    tab4.write("""" 1 - Disagree
                     2 - Partially Disagree
                     3 - Neutral
                     4 - Partially Agree
@@ -128,8 +128,8 @@ def test():
     tab4.write("---------------------------------------------------")
 
     tab5.write("The following questions test the Openness to Experience Trait")
-    tab1.write("The alternatives are on a 5-point agreement scale.")
-    tab1.write("""" 1 - Disagree
+    tab5.write("The alternatives are on a 5-point agreement scale.")
+    tab5.write("""" 1 - Disagree
                     2 - Partially Disagree
                     3 - Neutral
                     4 - Partially Agree
