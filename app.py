@@ -233,22 +233,23 @@ def test():
         st.markdown("Here's how to interpret the results:")
         st.write(""" 
 
-1. Openness: People who score high on openness tend to be creative, imaginative, and curious. 
-They enjoy exploring new ideas and are comfortable with ambiguity and uncertainty. 
-They may be seen as unconventional or non-traditional in their approach to life.
-
-2. Conscientiousness: Individuals who score high on conscientiousness are typically responsible, dependable, and organized. 
-They tend to be achievement-oriented and value hard work and persistence. They may be seen as perfectionists or workaholics.
-
-3. Extraversion: People who score high on extraversion tend to be outgoing, sociable, and energetic. T
+1. Extraversion: People who score high on extraversion tend to be outgoing, sociable, and energetic. T
 hey enjoy being around others and tend to be talkative and assertive. 
 They may be seen as charismatic or attention-seeking.
 
-4. Agreeableness: Individuals who score high on agreeableness tend to be cooperative, empathetic, and compassionate. 
+2. Neuroticism: People who score high on neuroticism tend to experience negative emotions such as anxiety, sadness, and anger more frequently and intensely than others. 
+They may be seen as moody, anxious, or overly sensitive.
+
+3. Agreeableness: Individuals who score high on agreeableness tend to be cooperative, empathetic, and compassionate. 
 They prioritize getting along with others and tend to be accommodating and supportive. They may be seen as friendly or too eager to please.
 
-5. Neuroticism: People who score high on neuroticism tend to experience negative emotions such as anxiety, sadness, and anger more frequently and intensely than others. 
-They may be seen as moody, anxious, or overly sensitive.
+4. Conscientiousness: Individuals who score high on conscientiousness are typically responsible, dependable, and organized. 
+They tend to be achievement-oriented and value hard work and persistence. They may be seen as perfectionists or workaholics.
+
+5. Openness: People who score high on openness tend to be creative, imaginative, and curious. 
+They enjoy exploring new ideas and are comfortable with ambiguity and uncertainty. 
+They may be seen as unconventional or non-traditional in their approach to life.
+
 
 It's important to keep in mind that these traits are not necessarily good or bad, and everyone has a unique combination of them.
  Understanding your own personality traits can help you better understand your strengths and weaknesses, as well as how you interact with others.""")
