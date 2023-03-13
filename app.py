@@ -273,39 +273,39 @@ def locations():
     hyd = pd.read_csv('Hyderabad.csv')
 
     with ct1:
-        st.map(mumbai['Name', 'lat', 'lon'])
+        st.map(mumbai[['Name', 'lat', 'lon']])
         st.write(mumbai)
     
     with ct2:
-        st.map(cent_mumbai['Name', 'lat', 'lon'])
+        st.map(cent_mumbai[['Name', 'lat', 'lon']])
         st.write(cent_mumbai)
 
     with ct3:
-        st.map(thane['Name', 'lat', 'lon'])
+        st.map(thane[['Name', 'lat', 'lon']])
         st.write(thane)
 
     with ct4:
-        st.map(navi_mumbai['Name', 'lat', 'lon'])
+        st.map(navi_mumbai[['Name', 'lat', 'lon']])
         st.write(navi_mumbai)
 
     with ct5:
-        st.map(pune['Name', 'lat', 'lon'])
+        st.map(pune[['Name', 'lat', 'lon']])
         st.write(pune)
 
     with ct6:
-        st.map(delhi['Name', 'lat', 'lon'])
+        st.map(delhi[['Name', 'lat', 'lon']])
         st.write(delhi)
 
     with ct7:
-        st.map(chennai['Name', 'lat', 'lon'])
+        st.map(chennai[['Name', 'lat', 'lon']])
         st.write(chennai)
 
     with ct8:
-        st.map(patna['Name', 'lat', 'lon'])
+        st.map(patna[['Name', 'lat', 'lon']])
         st.write(patna)
 
     with ct9:
-        st.map(hyd['Name', 'lat', 'lon'])
+        st.map(hyd[['Name', 'lat', 'lon']])
         st.write(hyd)
     
 
