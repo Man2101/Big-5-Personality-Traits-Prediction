@@ -168,14 +168,3 @@ We can interpret the results as the intensity of a particular trait on a scale o
 In this study, we were able to perform cluster analysis on a huge data set using the Kmeans clustering algorithm. We got the optimal silhouette score of 0.0711 on this model. We performed Factor analysis for constructing validation for the Big Five Personality Trait model and then predict the scores for each trait for any individual.
 
 Further improvements are required in this study with better resources and better understanding of the underlying mathematics of each model.
-
-
-
-## REFERENCES:
-
-The Big Five Personality Traits
-Jupyter Notebook
-Drive Folder
-Dataset
-Meta Data
-
