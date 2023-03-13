@@ -253,6 +253,8 @@ They may be seen as moody, anxious, or overly sensitive.
 
 It's important to keep in mind that these traits are not necessarily good or bad, and everyone has a unique combination of them.
  Understanding your own personality traits can help you better understand your strengths and weaknesses, as well as how you interact with others.""")
+        
+        st.markdown("#### Our website provides a preliminary assesment of the personalities. To get a more detailed analysis, we recommend you to visit a professional specialising in psychiatrics. You can view them on our website.")
 
 def locations():
     st.write("""
