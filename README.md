@@ -162,6 +162,13 @@ Since the other two models weren’t fitted well, we have used the Kmeans model 
 
 We can interpret the results as the intensity of a particular trait on a scale of  0 to 5. The higher the scale, higher the intensity of the trait. For example, if an individual has a high score in the Extraversion trait, he is more likely to be an extrovert than an introvert.
 
+#### Deployment using Streamlit:
+
+Streamlit is an open source app framework in Python language. It helps us create web apps for data science and machine learning in a short time. It is compatible with major Python libraries such as scikit-learn, Keras, PyTorch, SymPy(latex), NumPy, pandas, Matplotlib etc. With Streamlit, no callbacks are needed since widgets are treated as variables. Data caching simplifies and speeds up computation pipelines. Streamlit watches for changes on updates of the linked Git repository and the application will be deployed automatically in the shared link.
+
+We have used our k-means model as the prediction model. The website involves the whole test for you to give it a try. We can see the results and interpret it right on the website itself.
+
+
 
 ## CONCLUSION:
 
