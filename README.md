@@ -108,7 +108,7 @@ The Big Five personality traits model works by measuring an individual's level o
 In self-report questionnaires, individuals answer a series of questions that are designed to assess their personality traits. For example, a questionnaire might ask how much a person agrees or disagrees with statements such as "I am imaginative" (openness), "I am careful and diligent" (conscientiousness), "I am outgoing and sociable" (extraversion), "I am considerate and kind to others" (agreeableness), and "I worry a lot" (neuroticism). The responses are then scored and analyzed to provide a profile of the individual's personality traits.
 
 
-Exploring our Dataset
+#### Exploring our Dataset
 Now, the dataset that we are working with is a self-report questionnaire having 50 questions overall, 10 questions for each of the five traits. Along with those questions, the time taken by an individual for answering each of the questions is also provided. Although we will not be analysing the time aspect of the questions so we will be dropping those columns.
 
 The dataset had around 89 thousand missing values in total. Since the size of the dataset is around 10 Lakh, we can afford to drop those datapoints without compromising on our model building step.
@@ -131,7 +131,9 @@ As we can observe, at value of k being 5, the fitting time of model appears to d
 Before we start with model fitting we first use the MinMaxScaler function to scale the data points in the range 0 to 1. We opt for the MinMaxScaler as we know the precised range in which the readings lie. On the other hand, if we wouldn’t have known the range, we would’ve chosen the StandardScaler function.
 
 Now that we have our data scaled, we fit the Kmeans model with number of clusters as 5 and we get the silhouette score of 0.0711, which is pretty satisfactory for the scale of dataset we are dealing with.
-Factor Analysis
+
+
+#### Factor Analysis
 
 Factor analysis is a statistical technique used to uncover the underlying structure of a set of variables. Specifically, it seeks to identify the common factors that contribute to the observed variation in a set of variables. Factor analysis can be used for a variety of purposes, including data reduction, construct validation and hypothesis generation.
 
@@ -141,7 +143,7 @@ Hence, we combine the columns with respect to the traits they belong to and take
 
 
 
-####Visualizing the Clusters
+#### Visualizing the Clusters
 After performing Factor Analysis, we have our five factors for each of the five traits in our model. But, we cannot visualize the data points since this is in 5 dimensions. Hence, for ease in visualization, we further perform Principal Component Analysis in order to reduce the dimensionality to the 2-D space.
 The visual representation of our data points in the 2D space along with clusters is:
 
@@ -154,7 +156,7 @@ We observe some similar results when we applied the OPTICS algorithm for cluster
 The results of both the DBSCAN and OPTICS model seemed unsatisfactory to me and hence I need to better understand how these algorithms work inorder to optimize the fitting.
 
 
-####PREDICTIONS:
+#### PREDICTIONS:
 
 Since the other two models weren’t fitted well, we have used the Kmeans model for getting the predictions. I have answered the questions myself in an excel sheet and got the predictions for the traits I possess.
 
