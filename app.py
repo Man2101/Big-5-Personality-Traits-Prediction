@@ -264,7 +264,7 @@ def locations():
 
     ct1, ct2, ct3, ct4, ct5, ct6, ct7, ct8, ct9 = st.tabs(["Mumbai", "Central Mumbai", "Thane", "Navi Mumbai", "Pune", "Delhi", "Chennai", "Patna", "Hyderabad"])
     
-    mumbai = pd.read_csv('Mumbai.csv')
+    mumbai = pd.read_csv('Mumbai_.csv')
     cent_mumbai = pd.read_csv('Central Mumbai.csv')
     thane = pd.read_csv('Thane.csv')
     navi_mumbai = pd.read_csv('Navi Mumbai.csv')
