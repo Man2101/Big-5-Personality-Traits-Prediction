@@ -1,5 +1,6 @@
 import pickle 
 import streamlit as st
+import pandas as pd
 
 
 
@@ -44,16 +45,34 @@ describing and understanding human personality. It is also known as the Five
 Factor Model (FFM) and consists of five broad dimensions of personality. These
 dimensions are openness to experience, conscientiousness, extraversion,
 agreeableness, and neuroticism. Let's explore each of these dimensions in detail:
-
-1. Openness to experience: This dimension refers to a person's openness andreceptivity to new experiences, ideas, and perspectives. People who scorehigh in openness tend to be curious, imaginative, creative, and open-minded. They enjoy exploring new ideas and concepts and are often interested in art, music, and culture. People who score low in openness tend to be more traditional, practical, and conventional.
-
-2. Conscientiousness: This dimension refers to a person's level of organization, responsibility, and self-discipline. People who score high in conscientiousness tend to be reliable, organized, and hard-working. They set high standards for themselves and take their obligations seriously. People who score low in conscientiousness tend to be more relaxed, spontaneous, and carefree.
-
-3. Extraversion: This dimension refers to a person's level of sociability, assertiveness, and energy. People who score high in extraversion tend to be outgoing, talkative, and energetic. They enjoy being around others and often seek out social interactions. People who score low in extraversion tend to be more reserved, quiet, and introspective.
-
-4. Agreeableness: This dimension refers to a person's level of empathy, cooperation, and kindness. People who score high in agreeableness tend to be compassionate, cooperative, and caring. They value harmony and tend to be supportive of others. People who score low in agreeableness tend to be more competitive, assertive, and sometimes critical.
-
-5. Neuroticism: This dimension refers to a person's level of emotional stability, anxiety, and sensitivity. People who score high in neuroticism tend to be more anxious, worried, and emotionally reactive. They may be more sensitive to stress and may experience a wider range of emotions. People who score low in neuroticism tend to be more emotionally stable and resilient.""")
+1. Openness to experience: This dimension refers to a person's openness and
+receptivity to new experiences, ideas, and perspectives. People who score
+high in openness tend to be curious, imaginative, creative, and open-minded.
+They enjoy exploring new ideas and concepts and are often interested in art,
+music, and culture. People who score low in openness tend to be more
+traditional, practical, and conventional.
+2. Conscientiousness: This dimension refers to a person's level of organization,
+responsibility, and self-discipline. People who score high in
+conscientiousness tend to be reliable, organized, and hard-working. They set
+high standards for themselves and take their obligations seriously. People
+who score low in conscientiousness tend to be more relaxed, spontaneous,
+and carefree.
+3. Extraversion: This dimension refers to a person's level of sociability,
+assertiveness, and energy. People who score high in extraversion tend to be
+outgoing, talkative, and energetic. They enjoy being around others and often
+seek out social interactions. People who score low in extraversion tend to be
+more reserved, quiet, and introspective.
+4. Agreeableness: This dimension refers to a person's level of empathy,
+cooperation, and kindness. People who score high in agreeableness tend to
+be compassionate, cooperative, and caring. They value harmony and tend to
+be supportive of others. People who score low in agreeableness tend to be
+more competitive, assertive, and sometimes critical.
+5. Neuroticism: This dimension refers to a person's level of emotional stability,
+anxiety, and sensitivity. People who score high in neuroticism tend to be
+more anxious, worried, and emotionally reactive. They may be more
+sensitive to stress and may experience a wider range of emotions. People
+who score low in neuroticism tend to be more emotionally stable and
+resilient.""")
     st.write("""
 The Big Five personality traits model is widely used in psychology research and
 has been found to be reliable and valid across different cultures and populations. It
@@ -75,47 +94,47 @@ def test():
     tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["Extraversion", "Neuroticism", "Agreeableness", "Conscientiousness", "Openness to Experience", "Results"])
     tab1.write("The following questions test the Extraversion Trait")
     tab1.write("The alternatives are on a 5-point agreement scale.")
-    tab1.write("1 - Disagree")
-    tab1.write("2 - Partially Disagree")
-    tab1.write("3 - Neutral")
-    tab1.write("4 - Partially Agree")
-    tab1.write("5 - Agree")
+    tab1.write("""" 1 - Disagree
+                    2 - Partially Disagree
+                    3 - Neutral
+                    4 - Partially Agree
+                    5 - Agree""")
     tab1.write("---------------------------------------------------")
 
     tab2.write("The following questions test the Neuroticism Trait")
     tab2.write("The alternatives are on a 5-point agreement scale.")
-    tab2.write("1 - Disagree")
-    tab2.write("2 - Partially Disagree")
-    tab2.write("3 - Neutral")
-    tab2.write("4 - Partially Agree")
-    tab2.write("5 - Agree")
+    tab2.write("""" 1 - Disagree
+                    2 - Partially Disagree
+                    3 - Neutral
+                    4 - Partially Agree
+                    5 - Agree""")
     tab2.write("---------------------------------------------------")
 
     tab3.write("The following questions test the Agreeableness Trait")
     tab3.write("The alternatives are on a 5-point agreement scale.")
-    tab3.write("1 - Disagree")
-    tab3.write("2 - Partially Disagree")
-    tab3.write("3 - Neutral")
-    tab3.write("4 - Partially Agree")
-    tab3.write("5 - Agree")
+    tab3.write("""" 1 - Disagree
+                    2 - Partially Disagree
+                    3 - Neutral
+                    4 - Partially Agree
+                    5 - Agree""")
     tab3.write("---------------------------------------------------")
 
     tab4.write("The following questions test the Conscientiousness Trait")
     tab4.write("The alternatives are on a 5-point agreement scale.")
-    tab4.write("1 - Disagree")
-    tab4.write("2 - Partially Disagree")
-    tab4.write("3 - Neutral")
-    tab4.write("4 - Partially Agree")
-    tab4.write("5 - Agree")
+    tab4.write("""" 1 - Disagree
+                    2 - Partially Disagree
+                    3 - Neutral
+                    4 - Partially Agree
+                    5 - Agree""")
     tab4.write("---------------------------------------------------")
 
     tab5.write("The following questions test the Openness to Experience Trait")
     tab5.write("The alternatives are on a 5-point agreement scale.")
-    tab5.write("1 - Disagree")
-    tab5.write("2 - Partially Disagree")
-    tab5.write("3 - Neutral")
-    tab5.write("4 - Partially Agree")
-    tab5.write("5 - Agree")
+    tab5.write("""" 1 - Disagree
+                    2 - Partially Disagree
+                    3 - Neutral
+                    4 - Partially Agree
+                    5 - Agree""")
     tab5.write("---------------------------------------------------")
 
     tab6.write("Ready to see your results?")
@@ -215,24 +234,86 @@ def test():
         st.markdown("Here's how to interpret the results:")
         st.write(""" 
 
-1. Extraversion: People who score high on extraversion tend to be outgoing, sociable, and energetic. They enjoy being around others and tend to be talkative and assertive. They may be seen as charismatic or attention-seeking.
+1. Openness: People who score high on openness tend to be creative, imaginative, and curious. 
+They enjoy exploring new ideas and are comfortable with ambiguity and uncertainty. 
+They may be seen as unconventional or non-traditional in their approach to life.
 
-2. Neuroticism: People who score high on neuroticism tend to experience negative emotions such as anxiety, sadness, and anger more frequently and intensely than others. They may be seen as moody, anxious, or overly sensitive.
+2. Conscientiousness: Individuals who score high on conscientiousness are typically responsible, dependable, and organized. 
+They tend to be achievement-oriented and value hard work and persistence. They may be seen as perfectionists or workaholics.
 
-3. Agreeableness: Individuals who score high on agreeableness tend to be cooperative, empathetic, and compassionate. They prioritize getting along with others and tend to be accommodating and supportive. They may be seen as friendly or too eager to please.
+3. Extraversion: People who score high on extraversion tend to be outgoing, sociable, and energetic. T
+hey enjoy being around others and tend to be talkative and assertive. 
+They may be seen as charismatic or attention-seeking.
 
-4. Conscientiousness: Individuals who score high on conscientiousness are typically responsible, dependable, and organized. They tend to be achievement-oriented and value hard work and persistence. They may be seen as perfectionists or workaholics.
+4. Agreeableness: Individuals who score high on agreeableness tend to be cooperative, empathetic, and compassionate. 
+They prioritize getting along with others and tend to be accommodating and supportive. They may be seen as friendly or too eager to please.
 
-5. Openness: People who score high on openness tend to be creative, imaginative, and curious. They enjoy exploring new ideas and are comfortable with ambiguity and uncertainty. They may be seen as unconventional or non-traditional in their approach to life.
-
+5. Neuroticism: People who score high on neuroticism tend to experience negative emotions such as anxiety, sadness, and anger more frequently and intensely than others. 
+They may be seen as moody, anxious, or overly sensitive.
 
 It's important to keep in mind that these traits are not necessarily good or bad, and everyone has a unique combination of them.
  Understanding your own personality traits can help you better understand your strengths and weaknesses, as well as how you interact with others.""")
+
+def locations():
+    st.write("""
+    Our website provides a preliminary assesment of the personalities. 
+    To get a more detailed analysis, we recommend you to visit a professional specialising in psychiatrics.
+    Select your city of choice.""")
+
+    ct1, ct2, ct3, ct4, ct5, ct6, ct7, ct8, ct9 = st.tabs(["Mumbai", "Central Mumbai", "Thane", "Navi Mumbai", "Pune", "Delhi", "Chennai", "Patna", "Hyderabad"])
+    
+    mumbai = pd.read_csv('Mumbai.csv')
+    cent_mumbai = pd.read_csv('Central Mumbai.csv')
+    thane = pd.read_csv('Thane.csv')
+    navi_mumbai = pd.read_csv('Navi Mumbai.csv')
+    pune = pd.read_csv('Pune.csv')
+    delhi = pd.read_csv('Delhi.csv')
+    chennai = pd.read_csv('Chennai.csv')
+    patna = pd.read_csv('Patna.csv')
+    hyd = pd.read_csv('Hyderabad.csv')
+
+    with ct1:
+        st.map(mumbai['Name', 'lat', 'lon'])
+        st.write(mumbai)
+    
+    with ct2:
+        st.map(cent_mumbai['Name', 'lat', 'lon'])
+        st.write(cent_mumbai)
+
+    with ct3:
+        st.map(thane['Name', 'lat', 'lon'])
+        st.write(thane)
+
+    with ct4:
+        st.map(navi_mumbai['Name', 'lat', 'lon'])
+        st.write(navi_mumbai)
+
+    with ct5:
+        st.map(pune['Name', 'lat', 'lon'])
+        st.write(pune)
+
+    with ct6:
+        st.map(delhi['Name', 'lat', 'lon'])
+        st.write(delhi)
+
+    with ct7:
+        st.map(chennai['Name', 'lat', 'lon'])
+        st.write(chennai)
+
+    with ct8:
+        st.map(patna['Name', 'lat', 'lon'])
+        st.write(patna)
+
+    with ct9:
+        st.map(hyd['Name', 'lat', 'lon'])
+        st.write(hyd)
+    
 
 
 page_names_to_funcs = {
     "Home": main_page,
     "Give the test": test,
+    "Find a Professional": locations,
 }
 selected_page = st.sidebar.selectbox("Explore the site", page_names_to_funcs.keys())
 page_names_to_funcs[selected_page]()
